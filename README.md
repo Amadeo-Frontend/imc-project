@@ -1,7 +1,9 @@
 
 <h1 align="center">Calculadora de IMC</h1>
 
-LIVE: https://imc-project-ten.vercel.app/
+<div align="center">
+LIVE: https://imc-project-ten.vercel.app/    
+</div>
 
 </br>
  <div style="display: inline_block" align="center">
