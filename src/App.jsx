@@ -49,7 +49,7 @@ function App() {
         <input
           type="number"
           step="0.01"
-          className="form-control bg-secondary bg-opacity-75"
+          className="form-control bg-primary bg-opacity-75"
           id="altura"
           placeholder="Digite sua altura"
           value={altura}
@@ -63,7 +63,7 @@ function App() {
         <input
           type="number"
           step="0.01"
-          className="form-control bg-secondary bg-opacity-75"
+          className="form-control bg-primary bg-opacity-75"
           id="peso"
           placeholder="Digite seu peso"
           value={peso}
@@ -75,9 +75,11 @@ function App() {
       </button>
 
       {imc !== 0 && (
-        <div>
-          <p className=" text-center">Seu IMC é: {imc.toFixed(2)}</p>
-          <p className=" text-center">Sua classificação é: {classificacao}</p>
+        <div className="bg-primary rounded p-2">
+          <p className=" text-center text-white">Seu IMC é: {imc.toFixed(2)}</p>
+          <p className=" text-center text-white">
+            Sua classificação é: {classificacao}
+          </p>
         </div>
       )}
     </div>
